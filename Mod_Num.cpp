@@ -7,5 +7,6 @@
 Mod_Num::Mod_Num(): _number("0"), _modulo("1")
 {}
 
+// Destructor
 Mod_Num::~Mod_Num()
 {}
