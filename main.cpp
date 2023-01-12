@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include "Whole_Num.h"
+#include "Mod_Num.h"
 
 using std::vector;
 using std::cout;
