@@ -16,6 +16,7 @@ class Mod_Num
     public:
         Mod_Num(); // Default Constructor
         ~Mod_Num(); // Destructor
+        Mod_Num(Whole_Num number, Whole_Num modulo); // Num & Mod Constructor
 
 
 
