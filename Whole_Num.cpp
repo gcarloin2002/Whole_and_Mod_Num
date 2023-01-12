@@ -1,8 +1,10 @@
 #include "Whole_Num.h"
 #include <iostream>
 #include <vector>
+#include <string>
 
 using std::vector;
+using std::string;
 using std::cout;
 using std::endl;
 
@@ -737,6 +739,14 @@ Whole_Num::Whole_Num(const char* s): _num(vector<char>()), _sign('?')
     }
 
 }
+
+// String Constructor
+Whole_Num::Whole_Num(const string s): _num(vector<char>()), _sign('?')
+{
+   
+    
+}
+
 
 // Char Constructor
 Whole_Num::Whole_Num(const char c): _num(vector<char>()), _sign('+')

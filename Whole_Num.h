@@ -3,8 +3,10 @@
 
 #include <iostream>
 #include <vector>
+#include <string>
 
 using std::vector;
+using std::string;
 
 
 class Whole_Num
@@ -31,6 +33,7 @@ class Whole_Num
         Whole_Num(const Whole_Num& other); // Copy Constructor
         Whole_Num(Whole_Num&& other) noexcept; // Move Constructor
         Whole_Num(const char* s); // C-String Constructor
+        Whole_Num(const string s); // String Constructor
         Whole_Num(const char c); // Char Constructor
         Whole_Num& operator=(const Whole_Num& other); // Copy Assignment Operator
         Whole_Num& operator=(Whole_Num&& other) noexcept; // Move Assignment Operator
