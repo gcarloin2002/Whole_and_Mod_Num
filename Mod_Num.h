@@ -10,11 +10,11 @@ using std::vector;
 class Mod_Num
 {
     private:
-        Whole_Num x;
-        Whole_Num p;
+        Whole_Num _number;
+        Whole_Num _modulo;
 
     public:
-        
+        Mod_Num(); // Default Constructor
 
 
 

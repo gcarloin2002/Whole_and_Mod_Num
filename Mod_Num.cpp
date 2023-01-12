@@ -2,3 +2,9 @@
 #include "Whole_Num.h"
 #include <iostream>
 #include <vector>
+
+// Default Constructor
+Mod_Num::Mod_Num(): _number("0"), _modulo("1")
+{}
+
+
