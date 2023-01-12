@@ -15,7 +15,7 @@ class Mod_Num
 
     public:
         Mod_Num(); // Default Constructor
-
+        ~Mod_Num(); // Destructor
 
 
 
