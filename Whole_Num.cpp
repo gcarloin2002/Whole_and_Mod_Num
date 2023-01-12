@@ -357,7 +357,7 @@ Whole_Num Whole_Num::_karatsuba(Whole_Num lhs, Whole_Num rhs)
     {
         char s = '1';
         // Sets the sign
-        if (lhs.sign() == '-' xor rhs.sign() == '-')
+        if (lhs.sign() == '-' ^ rhs.sign() == '-')
         {s = '-';}
 
         else
@@ -580,7 +580,7 @@ Whole_Num Whole_Num::_div(Whole_Num lhs, Whole_Num rhs)
     {
         Whole_Num quotient = "0";
 
-        if (lhs.sign() == '-' xor rhs.sign() == '-')
+        if (lhs.sign() == '-' ^ rhs.sign() == '-')
         {quotient._sign = '-';}
 
         else
