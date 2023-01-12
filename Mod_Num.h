@@ -7,7 +7,20 @@
 
 using std::vector;
 
+class Mod_Num
+{
+    private:
+        Whole_Num x;
+        Whole_Num p;
 
+    public:
+        
+
+
+
+
+
+};
 
 
 
