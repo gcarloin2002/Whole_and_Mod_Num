@@ -10,7 +10,7 @@ using std::cin;
 
 int main()
 {
-    Whole_Num x = "54";
+    Mod_Num x = Mod_Num("54", "29");
     cout << x << endl;
 
     return 0;

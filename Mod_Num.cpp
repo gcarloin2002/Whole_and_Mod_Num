@@ -23,3 +23,17 @@ Mod_Num::Mod_Num(Whole_Num number, Whole_Num modulo)
         _modulo = modulo;
     }
 }
+
+
+
+// output
+std::ostream& operator<<(std::ostream& os, const Mod_Num& num)
+{
+    if (num._number.sign() == '-')
+    {os << num._number.sign();}
+
+    for (size_t i = 0; i < num._number.size(); i++)
+    {os << num._number.at(i);}
+
+    return os;
+}

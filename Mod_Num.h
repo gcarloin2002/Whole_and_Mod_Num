@@ -19,8 +19,7 @@ class Mod_Num
         Mod_Num(Whole_Num number, Whole_Num modulo); // Num & Mod Constructor
 
 
-
-
+        friend std::ostream& operator<<(std::ostream& os, const Mod_Num& num); // output
 };
 
 
