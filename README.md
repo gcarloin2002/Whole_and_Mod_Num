@@ -4,4 +4,4 @@
  ## How it is used:
  **Whole_Num:**
 
- A Whole_Num object can be initialized similar to how a string is initialized. This class behaves similar to the primitive datatype, int, in which the arithmetic performed on these objects result in values that lack decimal places. There are additional functions and operators in this class however, such as the "!" operator being used as a factorial operation and the "abs()" function to return the absolute value of a Whole_Num.
+ A **Whole_Num** object can be initialized similar to how a string is initialized. This class behaves similar to the primitive datatype, **int**, in which the arithmetic performed on these objects result in values that lack decimal places. Additional functions and operators in this class exist, such as the "**!**" operator being used as a factorial operation and the "**abs()**" function that returns the absolute value of a **Whole_Num** object.
