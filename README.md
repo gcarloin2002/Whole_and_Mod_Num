@@ -1,2 +1,2 @@
 # Whole_and_Mod_Num
- 
+ These classes allow programmers to initial large integer values and perform arithmetic without having to worry much about overflow as one normally would when working with primitive integer types in the C++ language. The size of the Whole_Num object (or rather the amount of digits in the object), are constrained to the user's operating system maximum size for a vector of chars;
