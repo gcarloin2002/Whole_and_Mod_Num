@@ -25,6 +25,15 @@ Mod_Num::Mod_Num(Whole_Num number, Whole_Num modulo)
 }
 
 
+// Sets _number
+void Mod_Num::setNum(Whole_Num)
+{}
+
+// Sets _modulo
+void Mod_Num::setMod(Whole_Num)
+{}
+
+
 
 // output
 std::ostream& operator<<(std::ostream& os, const Mod_Num& num)

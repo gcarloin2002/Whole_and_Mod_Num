@@ -18,6 +18,8 @@ class Mod_Num
         ~Mod_Num(); // Destructor
         Mod_Num(Whole_Num number, Whole_Num modulo); // Num & Mod Constructor
 
+        void setNum(Whole_Num n); // Sets _number
+        void setMod(Whole_Num m); // Sets _modulo
 
         friend std::ostream& operator<<(std::ostream& os, const Mod_Num& num); // output
 };
