@@ -32,6 +32,10 @@ void Mod_Num::setNum(Whole_Num n)
 void Mod_Num::setMod(Whole_Num m)
 {_modulo = m;}
 
+//   456
+// x  23
+
+
 // output
 std::ostream& operator<<(std::ostream& os, const Mod_Num& num)
 {

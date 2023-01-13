@@ -491,7 +491,7 @@ Whole_Num Whole_Num::_exp(Whole_Num lhs, Whole_Num rhs)
 
     // Negative
     else if (rhs < "0")
-    {throw std::invalid_argument("Not yet");}
+    {return "0";}
 
     // Positives
     else

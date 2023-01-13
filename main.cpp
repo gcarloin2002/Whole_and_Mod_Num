@@ -10,11 +10,9 @@ using std::cin;
 
 int main()
 {
-    Whole_Num x = "581";
-    cout << x + "12" << endl << endl;
+    Whole_Num x = "9";
 
-    string y = "581";
-    cout << y + "12" << endl;
+    cout << (x^("-2")) << endl;
 
     return 0;
 }
