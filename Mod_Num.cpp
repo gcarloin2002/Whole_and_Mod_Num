@@ -24,7 +24,6 @@ Mod_Num::Mod_Num(Whole_Num number, Whole_Num modulo)
     }
 }
 
-
 // Sets _number
 void Mod_Num::setNum(Whole_Num n)
 {_number = n;}
@@ -32,7 +31,6 @@ void Mod_Num::setNum(Whole_Num n)
 // Sets _modulo
 void Mod_Num::setMod(Whole_Num m)
 {_modulo = m;}
-
 
 // output
 std::ostream& operator<<(std::ostream& os, const Mod_Num& num)

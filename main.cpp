@@ -10,8 +10,11 @@ using std::cin;
 
 int main()
 {
-    Mod_Num x = Mod_Num("54", "29");
-    cout << x << endl;
+    Whole_Num x = "581";
+    cout << x + "12" << endl << endl;
+
+    string y = "581";
+    cout << y + "12" << endl;
 
     return 0;
 }
